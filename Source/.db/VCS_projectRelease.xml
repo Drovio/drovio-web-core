@@ -1,0 +1,402 @@
+<DATA>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>1</build>
+		<time>1414435738</time>
+		<title>Developement Release</title>
+		<description>Initial Repository Release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>2</build>
+		<time>1417452638</time>
+		<title>Developement Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>3</build>
+		<time>1418756259</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>4</build>
+		<time>1418933874</time>
+		<title>Test Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>5</build>
+		<time>1419017484</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>6</build>
+		<time>1419941464</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>7</build>
+		<time>1419943353</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>8</build>
+		<time>1420221782</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>9</build>
+		<time>1420296491</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>10</build>
+		<time>1420325019</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>11</build>
+		<time>1420325654</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>12</build>
+		<time>1420325817</time>
+		<title>Development Release</title>
+		<description></description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>13</build>
+		<time>1432293246</time>
+		<title>Redback Web Core</title>
+		<description>New Release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>14</build>
+		<time>1432297154</time>
+		<title>Redback Web Core</title>
+		<description>New Core Release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>15</build>
+		<time>1432297218</time>
+		<title>Redback Web Core</title>
+		<description>New Core Release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>16</build>
+		<time>1432297285</time>
+		<title>Redback Web Core</title>
+		<description>New Core Release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>17</build>
+		<time>1432884913</time>
+		<title>Redback Web Core</title>
+		<description>Path resolving updated.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>18</build>
+		<time>1432894213</time>
+		<title>Redback Web Core</title>
+		<description>Resolving resource paths for development preview fixed.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>19</build>
+		<time>1432914722</time>
+		<title>Redback Web Core</title>
+		<description>Updating entire SDK manual.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>20</build>
+		<time>1432914827</time>
+		<title>Redback Web Core</title>
+		<description>Updating entire SDK manual, No2.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>21</build>
+		<time>1435171234</time>
+		<title>DrovIO Web Core</title>
+		<description>Domain migration.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>22</build>
+		<time>1437055752</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>23</build>
+		<time>1437055799</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>24</build>
+		<time>1437056229</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>25</build>
+		<time>1437056303</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>26</build>
+		<time>1437066209</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>27</build>
+		<time>1437129019</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>28</build>
+		<time>1437130404</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1</version>
+		<build>29</build>
+		<time>1437130933</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.44</version>
+		<build>1</build>
+		<time>1437131582</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.45</version>
+		<build>1</build>
+		<time>1441562226</time>
+		<title>DrovIO Web Core</title>
+		<description>Development release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.46</version>
+		<build>1</build>
+		<time>1441645213</time>
+		<title>DrovIO Web Core</title>
+		<description>Development Release</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.47</version>
+		<build>1</build>
+		<time>1442653226</time>
+		<title>DrovIO Web Core</title>
+		<description>Bug fixes and improvements.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.48</version>
+		<build>1</build>
+		<time>1442739587</time>
+		<title>DrovIO Web Core</title>
+		<description>Bug fixes and improvements.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.49</version>
+		<build>1</build>
+		<time>1442741851</time>
+		<title>DrovIO Web Core</title>
+		<description>Bug fixes and improvements</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.50</version>
+		<build>1</build>
+		<time>1449417199</time>
+		<title>Drovio Web Core</title>
+		<description>Minor bug fixes and improvements.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.51</version>
+		<build>1</build>
+		<time>1449418358</time>
+		<title>Drovio Web Core</title>
+		<description>Bug fixes and improvements.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.52</version>
+		<build>1</build>
+		<time>1449851658</time>
+		<title>Drovio Web Core</title>
+		<description>Minor bug fixes and improvements.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.53</version>
+		<build>1</build>
+		<time>1449853615</time>
+		<title>Drovio Web Core</title>
+		<description>Minor bug fixes.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<version>0.1.54</version>
+		<build>1</build>
+		<time>1449944780</time>
+		<title>Drovio Web Core</title>
+		<description>Minor bug fixes.</description>
+	</ROW>
+</DATA>

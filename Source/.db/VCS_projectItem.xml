@@ -1,0 +1,704 @@
+<DATA>
+
+	<ROW>
+		<id>cl03c485917088983bd9a78d5ed7e89896</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Presentation/</path>
+		<name>notification.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl0a64e077493eb99c593919e892b04a65</id>
+		<project_id>3</project_id>
+		<path>/SDK/WDEV/Tester/core/</path>
+		<name>sdkTester.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl0f6a9fc0ddd3a040c275e5e9cd6dcc00</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Protocol/http/</path>
+		<name>HTTPRequest.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl1cbef9bfd44f782cfe8510344369c6c0</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Literals/</path>
+		<name>literalController.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl20c3ad9d07de9b35bb4eb2249e29fd71</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Platform/</path>
+		<name>pageLoader.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl223439fd29c613fe6730d85e0b2bec0f</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/filesystem/archive/</path>
+		<name>zipArchive.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl241ae63ebc2b8c8da9d6e51e770a4d5d</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/literals/</path>
+		<name>literalController.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl2a73241c0b761944e2905a0309d2961a</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Html/</path>
+		<name>HTML.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl2b887157ec0808f82335d966d512684f</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/literals/</path>
+		<name>literalManager.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl2e42bd95112b7d52a5990bfc935646ea</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Website/</path>
+		<name>website.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl326a6a2c920a298b6339ae1f63a64a88</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/database/connectors/</path>
+		<name>mysql_dbConnetctors.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl3799f12c286e1418faddf4a176b84b34</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/mail/phpmailer/</path>
+		<name>phpmailer.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl3b6fd62eedb8beb18737e0ff4e2a4984</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Website/</path>
+		<name>WSPage.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl3b73d1b8d2d8829096de98aae397d987</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/mail/</path>
+		<name>mailer.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl3cb4a143d2ee4cd3be0e8fb19023d498</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/literals/</path>
+		<name>moduleLiteral.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl3d9b89cabd99fdcd249903ba69ea5031</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/</path>
+		<name>paths.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl46acd05f955e2cfb271a51d1ab117be9</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Forms/formControls/</path>
+		<name>formButton.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl4cebb3b7369def1bd516310c69443e5c</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/storage/</path>
+		<name>cookies.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl53ad8c28cd83f91328348a132e7c1d8f</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/database/connectors/</path>
+		<name>mysql_dbConnector.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl585525e937b56022792dbed6d7d6f3f8</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Forms/</path>
+		<name>form.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl5b9270348fe98737f7dad8c9831caf24</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/literals/</path>
+		<name>translator.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl5ceedacf6e3b61614bcc8896ac051984</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Platform/</path>
+		<name>test2.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl5d9c9c3bdcf44a1c7f754b34501c55a9</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Core/</path>
+		<name>sdkMap.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl60bacfae8f38e9e7e06659d7b813fdf6</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/</path>
+		<name>settingsManager.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl616090d7b3f93ad3a9295ba6bb898e3f</id>
+		<project_id>3</project_id>
+		<path>/SDK/WDEV/Profiler/log/</path>
+		<name>websiteLogger.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl6176644eb1f3f680daeb605a9f6ffa97</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/filesystem/</path>
+		<name>directory.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl68c92a6c193ea0ef526aff74c8684b52</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/storage/</path>
+		<name>session.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl7112b850d7385426a1de01ba667fa0a9</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Forms/formControls/</path>
+		<name>formItem.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl7395b087aa902266e1a3ba661b5f2dea</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Prototype/</path>
+		<name>sourceMap.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl7c8a0d9a5a398231a8bf9c20d3845080</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Environment/</path>
+		<name>url.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl803aee6c8bdb28fd1b4954d58981d834</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Website/</path>
+		<name>pageView.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl819a40a71e86ff508731ffaf076df264</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/</path>
+		<name>literal.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl8553f8f0a5f5b0d4e166a32655e0cfd7</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Website/</path>
+		<name>pageLoader.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl8c352929067ba04acd6fc24ebda92c5d</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Prototype/</path>
+		<name>PopupPrototype.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl8ef91ef4d5769c7d211d96ea7cbc112c</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/</path>
+		<name>DOMParser.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl916eee377bc8d374655229b121f0f06f</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Geoloc/</path>
+		<name>datetimer.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl93f749d9f5dc9441c6c40ad874cf06ac</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Core/</path>
+		<name>WSPage.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl9418f8035373c5f04fbd5216ec9d7df2</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Forms/formControls/</path>
+		<name>formLabel.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl963b82057e6c81f72920147ccb90b34a</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/storage/</path>
+		<name>Url.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cl9fff862132b0e306bf67bca2e221e08e</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Prototype/</path>
+		<name>UIObjectPrototype.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cla00da1ea82cc2013ee14256d69806d96</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Navigation/</path>
+		<name>scrollable.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cla68fa6dd2a5b5767018143a5ddfdf5fb</id>
+		<project_id>3</project_id>
+		<path>/SDK/WDEV/Tester/</path>
+		<name>tester.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clac316c64593ee8ac55cf087774699d1d</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Website/settings/</path>
+		<name>globalSettings.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clac698fb522352964b7d413aa56f8785f</id>
+		<project_id>3</project_id>
+		<path>/SDK/WDEV/Profiler/log/</path>
+		<name>wsdkLogger.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clb00f5d4770e86f5c09c492ec430afe28</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Profiler/</path>
+		<name>logger.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clb1d49fa801ddf7287b4e83461d879d76</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Geoloc/</path>
+		<name>locale.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clb92a6ebe94883f87220966bb72b309c1</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Website/settings/</path>
+		<name>pageSettings.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clbbd6d25ba7537421508f106c2a151d6f</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Website/settings/</path>
+		<name>metaSettings.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clbcbce698801db466cc00cc421ae378a3</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/settings/</path>
+		<name>configSettings.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clbdd0b94e53e36832420a5a1c0ea8f569</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Prototype/</path>
+		<name>pageMap.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clc1c414c56275ff07a33cbd356f70e2ec</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/database/</path>
+		<name>sqlQuery.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clc2eaa676b5ff2898f0af2d9b711996f7</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/filesystem/</path>
+		<name>folderManager.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clc38cf0800bf56563c46f11b62131dca2</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Platform/</path>
+		<name>engine.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clc73751223160b5e11d764649722344d9</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Platform/</path>
+		<name>test.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clc8add7d6fae511dccb015dcd09f94860</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Forms/formControls/</path>
+		<name>formInput.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clcab7cbe2a52c8e7e0d4a0eee4169e388</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Prototype/</path>
+		<name>FormPrototype.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clcd305d1db34aa966dd631eaee53f6cd7</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/database/</path>
+		<name>dbConnection.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cld0c3c40240fba3e5824f970bbfe2a651</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Environment/</path>
+		<name>cookies.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cld1e4dfc464278f08e4e68f84c21bacf4</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Environment/</path>
+		<name>session.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cld3b141e888484fb74040819c2deadc78</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Content/</path>
+		<name>HTMLContent.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cld4518e5e1ab779b7907323272d41c105</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/literals/</path>
+		<name>literal.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cld4b339410e9678d286fad1a483e678d4</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Platform/</path>
+		<name>importer.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cld66ac4af920d98483284965bbb07d752</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/</path>
+		<name>url.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clda25f38cf2c80babc7806158954d13bd</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/mail/phpmailer/</path>
+		<name>pop3.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clda9b8c9b47f25aeebd364a31b98d9c99</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Platform/</path>
+		<name>sourceMap.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cldc72f0b606b11b1ae1fc9ae5d7cec17c</id>
+		<project_id>3</project_id>
+		<path>/SDK/WEB/Platform/</path>
+		<name>website.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cle08498701c50162b54a0334bd383882d</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Geoloc/</path>
+		<name>geoIP.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>cle2680515484bc04b24c3583963577b26</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Geoloc/</path>
+		<name>region.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clea7dc0bcc4151a435b66a22073ecc570</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Presentation/</path>
+		<name>popup.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clebe0993f0ac057ca6071051a7d496e32</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/storage/</path>
+		<name>url.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clee3c3dda3bf36b74547710d6fc6c2cb0</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Html/components/</path>
+		<name>weblink.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clf10e867aac313da59193a114e0a9b9a2</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Html/</path>
+		<name>HTMLPage.object</name>
+		<smart>1</smart>
+		<deleted>1</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clf25781c322dc711a8cd527476fdbd359</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Prototype/</path>
+		<name>DOMPrototype.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clf25e8d107a35f339df32929f432a7f08</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Literals/</path>
+		<name>literal.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clf43c2b60343e5723b85dbc3961eccb93</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Comm/mail/phpmailer/</path>
+		<name>smtp.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clfa9b8f7589154939cd6ef81a62f18f97</id>
+		<project_id>3</project_id>
+		<path>/SDK/WUI/Prototype/</path>
+		<name>HTMLPagePrototype.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>clfe38ccc0f08ee2611412666bb3117488</id>
+		<project_id>3</project_id>
+		<path>/SDK/WAPI/Resources/filesystem/</path>
+		<name>fileManager.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>m19fe7529850215b9fcbcfc42bf71b6bd</id>
+		<project_id>3</project_id>
+		<path>/SDK/</path>
+		<name>map.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+</DATA>

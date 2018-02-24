@@ -1,0 +1,14 @@
+<DATA>
+
+	<ROW>
+		<id>3</id>
+		<name>DrovioWebCore</name>
+		<title>Drovio Web Core</title>
+		<description>It includes the Web Engine SDK libraries for websites and extensions. It is a little copy of DrovIO's SDK including the same algorithms, prototypes and protocols. It has a separate UI API for the extensions. It is developed separately to support DrovIO's Web Engine.</description>
+		<projectType>3</projectType>
+		<team_id>6</team_id>
+		<online>1</online>
+		<open>0</open>
+		<public>0</public>
+	</ROW>
+</DATA>

@@ -1,0 +1,581 @@
+<DATA>
+
+	<ROW>
+		<id>ca0181e983b2e96b95c397406b52fa77540d940a9</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1412113488</time>
+		<author_id>1</author_id>
+		<summary>Initial semi-full commit for many objects of the Web Core SDK.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c74f5703c60b862b02893a1f69d34e9902d557227</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1412167210</time>
+		<author_id>1</author_id>
+		<summary>Keep adding classes to the SDK.</summary>
+		<description>Importer class updated to distinguish between the development and the production server. It is not completed and must be tested.</description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c81dc1fbd5fa5d8a0aab39871232590ade5787016</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1412169750</time>
+		<author_id>1</author_id>
+		<summary>Filesystem classes initial commit. Cookie manager initial commit.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c2c2003d6133069f0dbbdb84ef743a2fc38991ab9</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1412172149</time>
+		<author_id>1</author_id>
+		<summary>Initial commit for communication package, including dbConnection and mysql dbConnector. sqlQuery dummy commit and ui notification initial commit.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c4dd9b3fbcee4f3f993da871006f58e0eabf83e1f</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1414435408</time>
+		<author_id>3</author_id>
+		<summary>Initial Commit : Popup, literal and region classes</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>cbae4e7f4a106e37a6a7e246d825b373100423fff</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1414435465</time>
+		<author_id>3</author_id>
+		<summary>Classes to load and build a website page</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>caab1fc9841afb10a1019dfce67a5ad8812387c41</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1417120402</time>
+		<author_id>1</author_id>
+		<summary>Multiple classes fixed to be compatible to the new web engine core (as taken from the Redback Core). Some new classes were created.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>cfa92432be32761d9f69cb28b31979c03c6a74795</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1417120424</time>
+		<author_id>1</author_id>
+		<summary>Multiple classes updated (forgot in the previous commit).</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>ca5334bdf62c2e0cf22f2d832bb0869951b6ae8d3</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1417161671</time>
+		<author_id>1</author_id>
+		<summary>Full SDK commit to set the new headers.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c188c5e6fc24e51b945fe592731280f9fb736e249</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1417163396</time>
+		<author_id>1</author_id>
+		<summary>UI classes updated with documentation and css. Mailer classes updated with better structured code.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c13589a8032a6bdc47b4b21bf042030161edf78d2</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1417881201</time>
+		<author_id>3</author_id>
+		<summary>Several bug fixes according to the errors found during the WSDK testing.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c5a3bd115a8b6d33a93c679a6fb518c01f7ee6169</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1418045500</time>
+		<author_id>1</author_id>
+		<summary>WSPage class updated to parse the view return value to see if it is a string (HTML) or an object (DOMElement) and act accordingly.</summary>
+		<description>pageView updated to remove the view holder from the DOMDocument when calling getContent (and requesting the HTML).</description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>caf5d23bd4105bf7f6f14212496be775373c11748</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1418933832</time>
+		<author_id>3</author_id>
+		<summary>importer and source map test commit</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c3c9bd21af718723e1b8ee347b3772d4eede076a8</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1419017450</time>
+		<author_id>3</author_id>
+		<summary>Update the importer to load all the objects of the package when a specific object name is not given. Initial commit of logger class.</summary>
+		<description>- SourceMap class reads and parses the (map.xml) web core class indexing file.</description>
+		<tags>log, import</tags>
+	</ROW>
+
+	<ROW>
+		<id>c94ce5a9974840f4b444edf3bbbdfb43acfaf4677</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1419871465</time>
+		<author_id>1</author_id>
+		<summary>Initial commit for tester manager classes. sdkTester class created for the core packages.</summary>
+		<description></description>
+		<tags>sdk, tester</tags>
+	</ROW>
+
+	<ROW>
+		<id>c7b4d47572fb22e42ee02112caf3a9365ec51d7a2</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1419928002</time>
+		<author_id>1</author_id>
+		<summary>sourceMap, importer and tester classes updated to fix issues on importing classes.</summary>
+		<description>sourceMap class moved to WAPI\Prototype package.
+importer updated to be able to load objects by package from development server and from production.</description>
+		<tags>importer, sourcemap, tester</tags>
+	</ROW>
+
+	<ROW>
+		<id>ca0a5e0b3a54a4073619bed8954d652221967ad50</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1419941164</time>
+		<author_id>1</author_id>
+		<summary>Multiple updates in classes for path resolution.</summary>
+		<description>WSPage updated to load scripts and css of the core and of the pages.</description>
+		<tags>paths, resolution, resources</tags>
+	</ROW>
+
+	<ROW>
+		<id>c97fe2db8f3c7cf7278b2a8540fdb7dfebaa0e5bb</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1419943325</time>
+		<author_id>1</author_id>
+		<summary>Minor bugs fixed.</summary>
+		<description></description>
+		<tags>url, core, page, importer</tags>
+	</ROW>
+
+	<ROW>
+		<id>c715c03f24aa769023be8ed804bed473f8355fc18</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1419948925</time>
+		<author_id>1</author_id>
+		<summary>datetimer class updated to fix a js issue using jQuery for the first time.</summary>
+		<description></description>
+		<tags>datetimer, jquery</tags>
+	</ROW>
+
+	<ROW>
+		<id>c5e0796c7ada1a8d19e09936c09ef7c3e19d3c75d</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420208242</time>
+		<author_id>1</author_id>
+		<summary>website and pageloader classes moved to new namespace.</summary>
+		<description></description>
+		<tags>website, pageloader</tags>
+	</ROW>
+
+	<ROW>
+		<id>c245bcbabbc5afc1c888e9e06c40eb6aa0f5019d3</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420214737</time>
+		<author_id>1</author_id>
+		<summary>Initial commit for pageMap and settings manager classes.</summary>
+		<description>sourceMap documentation updated.</description>
+		<tags>map, source, pages, settings</tags>
+	</ROW>
+
+	<ROW>
+		<id>c247ae89bfbb59b82d343e467906624737f4a931b</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420221495</time>
+		<author_id>1</author_id>
+		<summary>Initial commit for website settings (global, meta, page).</summary>
+		<description>website class updated to import website source objects (solo and by package).
+paths class updated to get more paths including map, source, pages.
+WSPage updated to get page information from page settings file.</description>
+		<tags>settings, paths, source</tags>
+	</ROW>
+
+	<ROW>
+		<id>cd2e56fcc0fa1b7da854797fc7712fe4e00456b29</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420222649</time>
+		<author_id>1</author_id>
+		<summary>Classes updated to use wsystemRoot instead of systemRoot to enable redback testing environment.</summary>
+		<description></description>
+		<tags>systemroot</tags>
+	</ROW>
+
+	<ROW>
+		<id>c6d7c170577c5fcbd9d754a7fccbbfd3fe8bbef45</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420324958</time>
+		<author_id>1</author_id>
+		<summary>WSPage updated to add open graph settings.</summary>
+		<description></description>
+		<tags>page, opengraph</tags>
+	</ROW>
+
+	<ROW>
+		<id>cc2b5397a8b9b4fe726651cc32ed0475ced47f696</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420325621</time>
+		<author_id>1</author_id>
+		<summary>wsPage updated to fix minor bugs calling class functions.</summary>
+		<description></description>
+		<tags>wspage</tags>
+	</ROW>
+
+	<ROW>
+		<id>c0f9e51deefe525868d68a8479ddaa0a1fe3e2968</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420325782</time>
+		<author_id>1</author_id>
+		<summary>fixes in wsPage.</summary>
+		<description></description>
+		<tags>wspage</tags>
+	</ROW>
+
+	<ROW>
+		<id>cea99f006a78b81faa64293412ef646a630a9d22a</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420466535</time>
+		<author_id>1</author_id>
+		<summary>url class updated to fix a bug getting url info with unknown domain.</summary>
+		<description></description>
+		<tags>url</tags>
+	</ROW>
+
+	<ROW>
+		<id>c9294d28015c514196972f7509374328a264ae42c</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1420468391</time>
+		<author_id>1</author_id>
+		<summary>url class bug fixed in a missing "=".</summary>
+		<description></description>
+		<tags>url</tags>
+	</ROW>
+
+	<ROW>
+		<id>c08f8fd5cb2385ff86af78a42f8cad603d9428e9d</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1432884783</time>
+		<author_id>1</author_id>
+		<summary>Updates in website paths.</summary>
+		<description></description>
+		<tags>paths</tags>
+	</ROW>
+
+	<ROW>
+		<id>c92b606dcb176a09868af576156f54e7f30e0b43a</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1432893541</time>
+		<author_id>1</author_id>
+		<summary>Issues fixed when loading resources on development server.</summary>
+		<description></description>
+		<tags>resources, development</tags>
+	</ROW>
+
+	<ROW>
+		<id>c4b4ba9885c1ee263ce78b187d2f7a71cee9d147d</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1435171211</time>
+		<author_id>1</author_id>
+		<summary>Domain correction update in importer.</summary>
+		<description></description>
+		<tags>domain, importer</tags>
+	</ROW>
+
+	<ROW>
+		<id>cdb97e48d2c632be38dc64584617cd0c436f01bdd</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1437055691</time>
+		<author_id>1</author_id>
+		<summary>Updating the core engine with new protocols and models.</summary>
+		<description></description>
+		<tags>protocol, http, literals</tags>
+	</ROW>
+
+	<ROW>
+		<id>cc894b8c350150cb94a051c3f136ff7e1f8fe57a1</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1437056209</time>
+		<author_id>1</author_id>
+		<summary>Updating links in core page builder.</summary>
+		<description></description>
+		<tags>page</tags>
+	</ROW>
+
+	<ROW>
+		<id>c4a69c15efd319f4b6909e3942058b1d92c9a1052</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1437056289</time>
+		<author_id>1</author_id>
+		<summary>Fixing resource paths in core page.</summary>
+		<description></description>
+		<tags>page</tags>
+	</ROW>
+
+	<ROW>
+		<id>c5c41986381060a305ebc53a38157f33b01ecffab</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1437066188</time>
+		<author_id>1</author_id>
+		<summary>Datetimer updated to fix dependencies.</summary>
+		<description></description>
+		<tags>dependencies</tags>
+	</ROW>
+
+	<ROW>
+		<id>c9ab1aec1baf8edf030fb58a95b2ab05f8463f8d2</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1437128998</time>
+		<author_id>1</author_id>
+		<summary>Page loaders updated to follow the new rules of page paths but to fallback for compatibility.</summary>
+		<description></description>
+		<tags>page, loading</tags>
+	</ROW>
+
+	<ROW>
+		<id>cfc9a5ee66b52ee5fa54f8d64725e391cf9d8c920</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1437130918</time>
+		<author_id>1</author_id>
+		<summary>locale updated to load all active locale as given by Drovio.</summary>
+		<description></description>
+		<tags>locale</tags>
+	</ROW>
+
+	<ROW>
+		<id>c2fdf47550493c308162601606b7ed32c61da2710</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1437131408</time>
+		<author_id>1</author_id>
+		<summary>dependencies fixed.</summary>
+		<description></description>
+		<tags>locale</tags>
+	</ROW>
+
+	<ROW>
+		<id>cb2b1e9d08007143a4c0ddf02f2e89070c2ba9a44</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1441562170</time>
+		<author_id>1</author_id>
+		<summary>Fixed dependencies in literals class and new scrollable object created.</summary>
+		<description></description>
+		<tags>dependencies</tags>
+	</ROW>
+
+	<ROW>
+		<id>c5a309c89c1fb1022fc2f5ea70576daa3a6342cd0</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1442325141</time>
+		<author_id>1</author_id>
+		<summary>Core page builder updated to use a bigger version of jQuery (1.11.2).</summary>
+		<description></description>
+		<tags>core, jquery</tags>
+	</ROW>
+
+	<ROW>
+		<id>c2aeec1b5e6ea20f44a560e75041c8d6adf6cd596</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1442653176</time>
+		<author_id>1</author_id>
+		<summary>Fixing minor problems in core page builder and importer for tester packages.</summary>
+		<description></description>
+		<tags>core, page, importer, tester, settings</tags>
+	</ROW>
+
+	<ROW>
+		<id>c18d0f5208edd573ad9133d9c821b8b356222fe29</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1442739570</time>
+		<author_id>1</author_id>
+		<summary>Path resolution fixed.</summary>
+		<description></description>
+		<tags>paths</tags>
+	</ROW>
+
+	<ROW>
+		<id>cdd6c5c1c6a34ccab3f5cb8784f75ecd3f31b6397</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1442741836</time>
+		<author_id>1</author_id>
+		<summary>Minor bug fixes.</summary>
+		<description></description>
+		<tags>fixes</tags>
+	</ROW>
+
+	<ROW>
+		<id>c2e1701640538e53c24d8a57144a6c836e160c387</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1449417174</time>
+		<author_id>1</author_id>
+		<summary>geoIP class added to the Geoloc package to get geolocation information from the ip.</summary>
+		<description>Core page builder also updated to set extra meta properties for the viewport.</description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c5f35247842682d1545ad36e685326128d8623b26</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1449418247</time>
+		<author_id>1</author_id>
+		<summary>Map file updated with the new objects.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c95feab5cc1e975cebb6bb5e4b0902866153c805c</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1449841830</time>
+		<author_id>1</author_id>
+		<summary>Core page builder updated to fix resources. Paths updated to have a new settings path. Url and page loader minor fixes.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c1fb682ac6797de566add73095121a526b1faf9f7</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1449853601</time>
+		<author_id>1</author_id>
+		<summary>Minor bug fixes.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>cca5143d016f0400a97566fae6c864dcf0b21b880</id>
+		<project_id>3</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1449944764</time>
+		<author_id>1</author_id>
+		<summary>Major bug in page loader in loading proper page paths fixed.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+</DATA>
