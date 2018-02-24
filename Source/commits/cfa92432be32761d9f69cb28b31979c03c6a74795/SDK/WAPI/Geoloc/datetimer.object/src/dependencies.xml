@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\\importer"></use><use path="\WAPI\Resources\storage\session"></use><use path="\WUI\Html\HTML"></use></dependencies>

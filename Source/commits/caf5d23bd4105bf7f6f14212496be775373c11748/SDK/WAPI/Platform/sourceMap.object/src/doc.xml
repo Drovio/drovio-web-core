@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WAPI" package="Platform" namespace="\">
+  <class name="sourceMap" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1418931500</datecreated>
+      <daterevised>1418931500</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title/>
+      <description/>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description/>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

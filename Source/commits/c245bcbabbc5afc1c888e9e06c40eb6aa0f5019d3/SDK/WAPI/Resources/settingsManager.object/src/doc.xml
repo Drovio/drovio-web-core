@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WAPI" package="Resources" namespace="\">
+  <class name="settingsManager" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1420214701</datecreated>
+      <daterevised>1420214701</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Global Settings Manager</title>
+      <description>Handles a settings file</description>
+      <deprecated/>
+    </info>
+    <constants>
+      <const type="string" name="SCOPE_SYSTEM">
+        <description>The system's scope.</description>
+      </const>
+      <const type="string" name="SCOPE_USER">
+        <description>The user's scope.</description>
+      </const>
+    </constants>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected">
+        <prop type="DOMParser" name="xmlParser">
+          <description>The local DOMParser</description>
+        </prop>
+        <prop type="string" name="settingsFile">
+          <description>The settings filepath</description>
+        </prop>
+      </scope>
+      <scope type="private">
+        <prop type="boolean" name="rootRelative">
+          <description>Whether the settings file contains the systemRoot.</description>
+        </prop>
+      </scope>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Constructor method.
+Initializes the DOMParser.</description>
+          <parameters>
+            <parameter name="$path" type="string" defaultvalue="">
+              <description>The settings' file folder path.</description>
+            </parameter>
+            <parameter name="$fileName" type="string" defaultvalue="">
+              <description>The settings file name.</description>
+            </parameter>
+            <parameter name="$rootRelative" type="boolean" defaultvalue="">
+              <description>Whether the folder path contains the systemRoot.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="create" returntype="boolean">
+          <description>Creates the settings file.</description>
+          <parameters/>
+          <returndescription>True on success, false on failure or if settings file already exists.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="load" returntype="void">
+          <description>Loads the settings file.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="update" returntype="boolean">
+          <description>Updates the settings file.</description>
+          <parameters/>
+          <returndescription>Returns TRUE on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="get" returntype="mixed">
+          <description>Get the value of all properties or for a given name.</description>
+          <parameters>
+            <parameter name="$name" type="string" defaultvalue="">
+              <description>The property's name.
+Leave empty to get all properties.
+It is empty by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The property value or an associative array of all properties.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="set" returntype="void">
+          <description>Set a value of a property. If the property doesn't exist, it will be created.</description>
+          <parameters>
+            <parameter name="$name" type="string" defaultvalue="">
+              <description>The property's name.</description>
+            </parameter>
+            <parameter name="$value" type="string" defaultvalue="">
+              <description>The property's new value.
+If NULL, the property will be removed.</description>
+            </parameter>
+            <parameter name="$scope" type="string" defaultvalue="">
+              <description>The property's scope.
+See class constants.
+It is SCOPE_SYSTEM by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns TRUE on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

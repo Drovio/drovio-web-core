@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WUI" package="Presentation" namespace="\">
+  <class name="popup" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1412357836</datecreated>
+      <daterevised>1412357836</daterevised>
+      <extends>
+        <object>\WUI\Prototype\PopupPrototype</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Redback Popup</title>
+      <description>This builds a simple popup. It extends the system's popup prototype.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="build" returntype="popup">
+          <description>Builds the popup content.</description>
+          <parameters>
+            <parameter name="$content" type="DOMElement" defaultvalue="">
+              <description>The content of the popup.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The popup object.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getContent" returntype="string">
+          <description>Returns the html (in string format) of popup.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

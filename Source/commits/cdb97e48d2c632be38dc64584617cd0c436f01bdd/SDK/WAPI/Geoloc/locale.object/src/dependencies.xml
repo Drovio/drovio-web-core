@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\WAPI\Resources\DOMParser"></use><use path="\WAPI\Platform\importer"></use><use path="\WAPI\Environment\cookies"></use><use path="\\locale"></use><use path="\WAPI\Platform\engine"></use><use path="\WAPI\Environment\session"></use><use path="\Exception"></use></dependencies>

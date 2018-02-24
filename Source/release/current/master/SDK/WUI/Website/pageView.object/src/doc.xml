@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WUI" package="Website" namespace="\">
+  <class name="pageView" abstract="">
+    <info>
+      <version>2.0</version>
+      <build>1</build>
+      <datecreated>1412158783</datecreated>
+      <daterevised>1442609297</daterevised>
+      <extends>
+        <object>\WUI\Content\HTMLContent</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Website Page Builder</title>
+      <description>Builds a website page with a specified container id and class.
+It loads page's html and can parse website's literals.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="build" returntype="pageView">
+          <description>Build the outer html content container.</description>
+          <parameters>
+            <parameter name="$title" type="string" defaultvalue="">
+              <description>The page title.
+If you set a title here, this will override the page settings.</description>
+            </parameter>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The element's id. Empty by default.</description>
+            </parameter>
+            <parameter name="$class" type="string" defaultvalue="">
+              <description>The element's class. Empty by default.</description>
+            </parameter>
+            <parameter name="$loadHTML" type="boolean" defaultvalue="">
+              <description>Indicator whether to load html from the designer file.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The pageView object.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="setPageTitle" returntype="void">
+          <description>Sets the page title.</description>
+          <parameters>
+            <parameter name="$title" type="string" defaultvalue="">
+              <description>The new page title.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getContent" returntype="mixed">
+          <description>Get the page content object.</description>
+          <parameters/>
+          <returndescription>The page content element as a DOMElement or as HTML (depending on the call).</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected">
+        <method name="loadLiterals" returntype="pageView">
+          <description>Loads website's literals in the designer's html file.</description>
+          <parameters/>
+          <returndescription>The pageView object.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getParentFilename" returntype="string">
+          <description>Gets the parent's filename for loading the html from external file.</description>
+          <parameters/>
+          <returndescription>The parent script name.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

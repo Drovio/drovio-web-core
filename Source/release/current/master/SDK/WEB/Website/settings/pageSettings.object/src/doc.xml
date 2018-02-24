@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WEB" package="Website" namespace="\settings">
+  <class name="pageSettings" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1420221420</datecreated>
+      <daterevised>1420221420</daterevised>
+      <extends>
+        <object>\WAPI\Resources\settingsManager</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Website Page settings manager</title>
+      <description>Gets all page settings for a given website page.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Initialize the settings file manager.</description>
+          <parameters>
+            <parameter name="$pagePath" type="string" defaultvalue="">
+              <description>The page path as taken from the request uri.
+No extension should provided.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

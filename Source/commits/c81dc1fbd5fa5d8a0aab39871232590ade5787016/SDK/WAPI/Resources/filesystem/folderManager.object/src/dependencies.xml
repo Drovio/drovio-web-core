@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\RecursiveIteratorIterator"></use><use path="\RecursiveDirectoryIterator"></use><use path="\\importer"></use><use path="\WAPI\Resources\filesystem\directory"></use><use path="\WAPI\Resources\DOMParser"></use></dependencies>

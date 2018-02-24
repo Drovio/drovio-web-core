@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WEB" package="Website" namespace="\">
+  <class name="website" abstract="">
+    <info>
+      <version>1.0</version>
+      <build>1</build>
+      <datecreated>1417118276</datecreated>
+      <daterevised>1420049495</daterevised>
+      <extends>
+        <object>\WEB\Platform\website</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Website Manager</title>
+      <description>This is the website manager class.
+It imports website source objects and load website pages.</description>
+      <deprecated>Use \WEB\Platform\website instead.</deprecated>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

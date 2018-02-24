@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WEB" package="Platform" namespace="\">
+  <class name="website" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1420049497</datecreated>
+      <daterevised>1420049497</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Website Manager</title>
+      <description>This is the website manager class.
+It imports website source objects and load website pages.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="import" returntype="void" static="true">
+          <description>Import a website source object.</description>
+          <parameters>
+            <parameter name="$package" type="string" defaultvalue="">
+              <description>The object's package name.</description>
+            </parameter>
+            <parameter name="$class" type="string" defaultvalue="">
+              <description>The full name of the class (including namespaces separated by "/").</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="loadPage" returntype="mixed" static="true">
+          <description>Load a website page from the inner page directory.</description>
+          <parameters>
+            <parameter name="$pagePath" type="string" defaultvalue="">
+              <description>The page path to load.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The page output.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private">
+        <method name="importPackage" returntype="void">
+          <description>Import an entire website source package.</description>
+          <parameters>
+            <parameter name="$package" type="string" defaultvalue="">
+              <description>The website source package name.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

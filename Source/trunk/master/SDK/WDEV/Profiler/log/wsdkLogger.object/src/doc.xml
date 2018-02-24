@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WDEV" package="Profiler" namespace="\log">
+  <class name="wsdkLogger" abstract="">
+    <info>
+      <version>0.2</version>
+      <build>1</build>
+      <datecreated>1419684856</datecreated>
+      <daterevised>1419684986</daterevised>
+      <extends>
+        <object>\WAPI\Profiler\logger</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Web SDK Logger</title>
+      <description>Used by Web SDK classes to log their activity, errors and debugging messages</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Constructor Method</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected">
+        <method name="getLogFolder" returntype="string">
+          <description>Get the web sdk log folder.</description>
+          <parameters/>
+          <returndescription>The website's log folder.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

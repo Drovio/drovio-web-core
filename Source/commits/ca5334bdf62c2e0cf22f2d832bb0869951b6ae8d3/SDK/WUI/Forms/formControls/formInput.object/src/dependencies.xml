@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\WAPI\Platform\importer"></use><use path="\UI\Html\DOM"></use><use path="\Exception"></use><use path="\WUI\Forms\formControls\formItem"></use></dependencies>

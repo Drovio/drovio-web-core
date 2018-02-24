@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WEB" package="Website" namespace="\settings">
+  <class name="metaSettings" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>2</build>
+      <datecreated>1420219570</datecreated>
+      <daterevised>1420220175</daterevised>
+      <extends>
+        <object>\WAPI\Resources\settingsManager</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Meta Website settings manager</title>
+      <description>Gets all website default meta information including open graph.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Initialize the settings file manager.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

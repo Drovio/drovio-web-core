@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\WAPI\Platform\importer"></use><use path="\WUI\Core\WSPage"></use><use path="\Exception"></use></dependencies>

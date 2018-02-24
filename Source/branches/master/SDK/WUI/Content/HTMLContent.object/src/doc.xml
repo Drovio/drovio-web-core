@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WUI" package="Content" namespace="\">
+  <class name="HTMLContent" abstract="">
+    <info>
+      <version>1.0</version>
+      <build>2</build>
+      <datecreated>1412113447</datecreated>
+      <daterevised>1417158898</daterevised>
+      <extends>
+        <object>\WUI\Prototype\UIObjectPrototype</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>HTML Content Object</title>
+      <description>Creates an html content object for generic use.
+Provides the right tools to enrich this object.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="build" returntype="HTMLContent">
+          <description>Build the outer html content container.</description>
+          <parameters>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The element's id.</description>
+            </parameter>
+            <parameter name="$class" type="string" defaultvalue="">
+              <description>The element's class.</description>
+            </parameter>
+            <parameter name="$loadHTML" type="boolean" defaultvalue="">
+              <description>Indicator whether to load html from the designer file.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The HTMLContent object.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="buildElement" returntype="HTMLContent">
+          <description>Build the HTMLContent element with an element that the user built.</description>
+          <parameters>
+            <parameter name="$element" type="DOMElement" defaultvalue="">
+              <description>The user's element.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The HTMLContent object.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="append" returntype="mixed">
+          <description>Appends an element to the HTMLContent root element.</description>
+          <parameters>
+            <parameter name="$element" type="DOMElement" defaultvalue="">
+              <description>The element to be appended.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns NULL if the element given is empty. Returns the HTMLContent object otherwise.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getWeblink" returntype="DOMElement">
+          <description>Builds an html weblink.</description>
+          <parameters>
+            <parameter name="$href" type="string" defaultvalue="">
+              <description>The weblink href attribute.</description>
+            </parameter>
+            <parameter name="$content" type="mixed" defaultvalue="">
+              <description>The weblink content. It can be text or DOMElement.</description>
+            </parameter>
+            <parameter name="$target" type="string" defaultvalue="">
+              <description>The target attribute. It is "_self" by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The weblink DOMElement object.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected">
+        <method name="getParentFilename" returntype="string">
+          <description>Gets the parent's file name.</description>
+          <parameters/>
+          <returndescription>The parent's script name.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="private">
+        <method name="loadHTML" returntype="HTMLContent">
+          <description>Loads the html content from the script's designer file.</description>
+          <parameters/>
+          <returndescription>The HTMLContent object.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WUI" package="Html" namespace="\">
+  <class name="HTML" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>2</build>
+      <datecreated>1403345945</datecreated>
+      <daterevised>1411999335</daterevised>
+      <extends>
+        <object>\WAPI\Prototype\DOMPrototype</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>HTML Handler</title>
+      <description>HTML extends DOMPrototype for DOM and html specific functions.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected">
+        <prop type="DOMDocument" name="document" static="true">
+          <description>The page document</description>
+        </prop>
+      </scope>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="create" returntype="DOMElement" static="true">
+          <description>Creates and returns a DOMElement with the specified tagName and the given attributes</description>
+          <parameters>
+            <parameter name="$tag" type="string" defaultvalue="">
+              <description>The tag of the element.</description>
+            </parameter>
+            <parameter name="$content" type="mixed" defaultvalue="">
+              <description>The content of the element. It can be a string or a DOMElement.</description>
+            </parameter>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The id attribute</description>
+            </parameter>
+            <parameter name="$class" type="string" defaultvalue="">
+              <description>The class attribute</description>
+            </parameter>
+          </parameters>
+          <returndescription>The DOMElement</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="evaluate" returntype="DOMNodeList" static="true">
+          <description>Evaluate an XPath Query</description>
+          <parameters>
+            <parameter name="$query" type="string" defaultvalue="">
+              <description>The XPath query to be evaluated</description>
+            </parameter>
+            <parameter name="$context" type="DOMElement" defaultvalue="">
+              <description>if content is not NULL the query will be relative to it.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns the node list that matches the given XPath Query.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="find" returntype="mixed" static="true">
+          <description>Find an element by id (using the evaluate function).</description>
+          <parameters>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The id of the elemeThe node name of the element.</description>
+            </parameter>
+            <parameter name="$nodeName" type="string" defaultvalue="">
+              <description>The node name of the element. If not set, it searches for all nodes (*).</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns the DOMElement or NULL if it doesn't exist.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="comment" returntype="DOMNode" static="true">
+          <description>Create an html comment.</description>
+          <parameters>
+            <parameter name="$content" type="string" defaultvalue="">
+              <description>The comment content.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns the comment element with the given content.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="import" returntype="DOMNode" static="true">
+          <description>Imports a node to this document.</description>
+          <parameters>
+            <parameter name="$node" type="DOMNode" defaultvalue="">
+              <description>The node to be imported</description>
+            </parameter>
+            <parameter name="$deep" type="boolean" defaultvalue="">
+              <description>Defines whether all the children of this node will be imported.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns the new node.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getHTML" returntype="string">
+          <description>Returns the HTML form of the document</description>
+          <parameters>
+            <parameter name="$format" type="boolean" defaultvalue="">
+              <description>Indicates whether to format the output.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns the HTML form of the document</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getXML" returntype="string">
+          <description>Returns the XML form of the document</description>
+          <parameters>
+            <parameter name="$format" type="boolean" defaultvalue="">
+              <description>Indicates whether to format the output.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns the XML form of the document</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="initialize" returntype="void" static="true">
+          <description>Initializes and clears the  DOMDocument</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="clear" returntype="void" static="true">
+          <description>Clears the DOMDocument</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="document" returntype="DOMDocument" static="true">
+          <description>Get the DOMDocument</description>
+          <parameters/>
+          <returndescription>Returns the DOMDocument</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="addClass" returntype="boolean" static="true">
+          <description>Adds a class to the given DOMElement.</description>
+          <parameters>
+            <parameter name="$elem" type="DOMElement" defaultvalue="">
+              <description>The element to add the class.</description>
+            </parameter>
+            <parameter name="$class" type="string" defaultvalue="">
+              <description>The class name.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure or if the class already exists.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="removeClass" returntype="boolean" static="true">
+          <description>Removes a class from a given DOMElement.</description>
+          <parameters>
+            <parameter name="$elem" type="DOMElement" defaultvalue="">
+              <description>The element to remove the class.</description>
+            </parameter>
+            <parameter name="$class" type="string" defaultvalue="">
+              <description>The class name.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure or if the class already exists.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="select" returntype="mixed" static="true">
+          <description>Selects nodes in the html document that match a given css selector.</description>
+          <parameters>
+            <parameter name="$css" type="string" defaultvalue="">
+              <description>The css selector to search for in the html document.It does not support pseudo-* for the moment and only supports simple equality attribute-wise.</description>
+            </parameter>
+            <parameter name="$context" type="mixed" defaultvalue="">
+              <description>Can either be a DOMElement as the context of the search, or a css selector.</description>
+            </parameter>
+          </parameters>
+          <returndescription>Returns the node list that matches the given css selector, or FALSE on malformed input.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\WUI\Html\components\weblink"></use><use path="\\importer"></use><use path="\WUI\Html\HTML"></use><use path="\WAPI\Resources\filesystem\fileManager"></use><use path="\\literal"></use><use path="\WAPI\Resources\url"></use><use path="\WUI\Prototype\UIObjectPrototype"></use></dependencies>

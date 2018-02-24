@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WDEV" package="Profiler" namespace="\log">
+  <class name="websiteLogger" abstract="">
+    <info>
+      <version>0.2</version>
+      <build>1</build>
+      <datecreated>1419684795</datecreated>
+      <daterevised>1419684976</daterevised>
+      <extends>
+        <object>\WAPI\Profiler\logger</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Website Logger Class</title>
+      <description>This class is used by the website's pages / sources classes to log their activity</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Constructor Method</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected">
+        <method name="getLogFolder" returntype="string">
+          <description>Get the website's log folder.</description>
+          <parameters/>
+          <returndescription>The website's log folder.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WEB" package="Website" namespace="\">
+  <class name="pageLoader" abstract="">
+    <info>
+      <version>2.0</version>
+      <build>1</build>
+      <datecreated>1412176394</datecreated>
+      <daterevised>1420051048</daterevised>
+      <extends>
+        <object>\WEB\Platform\pageLoader</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Webpage Loader Class</title>
+      <description>Gives the directives to build a Website Page and prints the constructed page to the user.</description>
+      <deprecated>Use \WEB\Platform\pageLoader instead.</deprecated>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

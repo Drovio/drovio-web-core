@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WAPI" package="Literals" namespace="\">
+  <class name="literal" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>2</build>
+      <datecreated>1417116235</datecreated>
+      <daterevised>1436882955</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Website Literal Manager</title>
+      <description>Get all website literals.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected">
+        <prop type="array" name="literals" static="true">
+          <description>An array of all literals already loaded by locale and by scope.</description>
+        </prop>
+      </scope>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="get" returntype="mixed" static="true">
+          <description>Get the literal(s) in the given scope.</description>
+          <parameters>
+            <parameter name="$scope" type="string" defaultvalue="">
+              <description>The requested literal scope.</description>
+            </parameter>
+            <parameter name="$name" type="string" defaultvalue="">
+              <description>The literal name.
+Leave empty to get all scope literals in an array.
+It is empty by default.</description>
+            </parameter>
+            <parameter name="$attributes" type="array" defaultvalue="">
+              <description>An array of attributes to pass to the literal.</description>
+            </parameter>
+            <parameter name="$locale" type="string" defaultvalue="">
+              <description>The locale to get the literals from.
+If NULL, get the current locale.
+It is NULL by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The literal value or all the literals of the given scope.
+If the literal doesn't exist in the current or given locale, it will try to return the default value.
+It will return an empty string if the literal doesn't exist in any locale.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private">
+        <method name="getLiterals" returntype="array" static="true">
+          <description>Get all literals by locale in the given scope.</description>
+          <parameters>
+            <parameter name="$scope" type="string" defaultvalue="">
+              <description>The literal scope.</description>
+            </parameter>
+            <parameter name="$locale" type="string" defaultvalue="">
+              <description>The locale to get the literals from.
+If NULL, get the current locale.
+It is NULL by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription>An array of all literals in the given scope and locale.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

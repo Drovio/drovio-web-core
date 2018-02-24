@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\WAPI\Platform\importer"></use><use path="\Exception"></use><use path="\WAPI\Comm\phpmailer\phpmailer"></use><use path="\WAPI\Comm\phpmailer\pop3"></use><use path="\WAPI\Comm\phpmailer\smtp"></use></dependencies>

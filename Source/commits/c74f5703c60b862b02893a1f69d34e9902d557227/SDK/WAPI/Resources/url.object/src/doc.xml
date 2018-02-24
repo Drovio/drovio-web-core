@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WAPI" package="Resources" namespace="\">
+  <class name="url" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1412160079</datecreated>
+      <daterevised>1412160079</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>URL Resolver</title>
+      <description>This class is responsible for url resolving.
+It is used for resolving urls for resources and redirections.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="getDomain" returntype="string" static="true">
+          <description>Get current domain.</description>
+          <parameters/>
+          <returndescription>The host domain.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getSubDomain" returntype="string" static="true">
+          <description>Gets the current navigation subdomain.</description>
+          <parameters/>
+          <returndescription>Returns the active navigation subdomain.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="get" returntype="string" static="true">
+          <description>Creates and returns a url with parameters in url encoding.</description>
+          <parameters>
+            <parameter name="$url" type="string" defaultvalue="">
+              <description>The base url.</description>
+            </parameter>
+            <parameter name="$params" type="array" defaultvalue="">
+              <description>An array of parameters as key =&amp;gt; value.</description>
+            </parameter>
+          </parameters>
+          <returndescription>A well formed url.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private">
+        <method name="urlInfo" returntype="array" static="true">
+          <description>Gets the info of the url in an array.</description>
+          <parameters/>
+          <returndescription>The url info as follows:
+['sub'] = The navigation subdomain.
+['domain'] = The host domain.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

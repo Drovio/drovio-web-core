@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WAPI" package="Comm" namespace="\mail">
+  <class name="mailer" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1417160408</datecreated>
+      <daterevised>1417160408</daterevised>
+      <extends>
+        <object/>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Website mailer</title>
+      <description>Manages all mail actions for the website.</description>
+      <deprecated/>
+    </info>
+    <constants>
+      <const type="" name="CLASS_NAME">
+        <description/>
+      </const>
+      <const type="" name="CLASS_VERSION">
+        <description/>
+      </const>
+    </constants>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private">
+        <prop type="" name="optionSetDefined">
+          <description/>
+        </prop>
+      </scope>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="options" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$optionSetArray" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="send" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$subject" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$from" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$to" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$auto" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="setSubject" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$subject" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="AddAddress" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$address" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$name" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="AddCC" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$address" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$name" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="AddBCC" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$address" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$name" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="AddReplyTo" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$address" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$name" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="setPriority" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$priority" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="addMultipleRecipients" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$kind" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$addressesArray" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="setAltBody" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$altBody" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="MsgHTML" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$body" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected">
+        <method name="intialize" returntype="void">
+          <description/>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="private">
+        <method name="getValue" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$currValue" type="" defaultvalue="">
+              <description/>
+            </parameter>
+            <parameter name="$newValue" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="validate_address" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$address" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="validate_name" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$name" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="validate_subject" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$subject" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="validate_htmlBody" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$htmlBody" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="validate_altBody" returntype="void">
+          <description/>
+          <parameters>
+            <parameter name="$altBody" type="" defaultvalue="">
+              <description/>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="WAPI" package="Resources" namespace="\">
+  <class name="paths" abstract="">
+    <info>
+      <version>2.0</version>
+      <build>1</build>
+      <datecreated>1417115263</datecreated>
+      <daterevised>1420221018</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Website Path Manager</title>
+      <description>It's the website's path giver.
+All classes should rely on this path giver class in order for the code to work both on development and production server.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private">
+        <prop type="string" name="websiteFolder" static="true">
+          <description>The website folder (not the root).</description>
+        </prop>
+        <prop type="string" name="websiteLibrary" static="true">
+          <description>The website library root folder.</description>
+        </prop>
+        <prop type="string" name="extensionsFolder" static="true">
+          <description>The extensions' root folder.</description>
+        </prop>
+      </scope>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="getWebsiteFolder" returntype="string" static="true">
+          <description>Get the website folder which contains website data (pages, source, scripts).</description>
+          <parameters/>
+          <returndescription>The website folder path.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getSettingsFolder" returntype="string" static="true">
+          <description>Get the inner settings folder in the website folder.</description>
+          <parameters/>
+          <returndescription>The website settings folder.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getMapFolder" returntype="string" static="true">
+          <description>Get the inner map folder in the website folder.</description>
+          <parameters/>
+          <returndescription>The website map folder.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getPageFolder" returntype="string" static="true">
+          <description>Get the inner page folder path in the website folder.</description>
+          <parameters>
+            <parameter name="$pagePath" type="string" defaultvalue="">
+              <description>The page path as taken from the request uri.
+No extension should provided.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The inner page folder path.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getSourceFolder" returntype="string" static="true">
+          <description>Get the inner source folder in the website folder.</description>
+          <parameters/>
+          <returndescription>The website source folder.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getWebsiteLibrary" returntype="string" static="true">
+          <description>Get website library root folder.
+It includes resources (media), scripts and styles.</description>
+          <parameters/>
+          <returndescription>The website library root folder.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getCoreRsrcFolder" returntype="string" static="true">
+          <description>Gets the website core resources folder.</description>
+          <parameters/>
+          <returndescription>The core resources root folder.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getWebsiteResources" returntype="string" static="true">
+          <description>Gets the website resources root folder.</description>
+          <parameters/>
+          <returndescription>The websites resources root folder path.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getExtensionFolder" returntype="string" static="true">
+          <description>Get the folder path for the given extension.</description>
+          <parameters>
+            <parameter name="$extensionID" type="string" defaultvalue="">
+              <description>The extension id to get the folder path.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The extension folder path.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

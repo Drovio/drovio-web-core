@@ -1,0 +1,50 @@
+body {
+	font-family: "Lucida Grande", "Verdana", "Lucida Sans Unicode", sans-serif;
+	font-size: 11px;
+	margin: 0px;
+}
+a, a.visited, a:hover {
+	text-decoration: none;
+	outline: none;
+	color: #353535;
+}
+a img {
+	border: none;
+	outline: none;	
+}
+#wsPageReport {
+	padding: 10px;
+	padding-bottom: 0px;
+	position: absolute;
+	right: 20px;
+	top: 40px;
+	z-index: 5;
+	width: 80%;
+}
+#wsPageReport:empty {
+	display: none;
+	padding: 0px;
+}
+#wsPageContainer {
+	height: 100%;
+	overflow: auto;
+}
+#wsPageHelper {
+	display: none !important;
+}
+.uiPageContainer {
+	height: 100%;
+	overflow: auto;
+}
+.uiPageContainer:empty, .uiPageContainer > .moduleContainer:empty {
+	background: #FFF url('%resources%/global/splash.png') no-repeat center;
+	background-size: 250px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.noDisplay {
+	display: none !important;
+}

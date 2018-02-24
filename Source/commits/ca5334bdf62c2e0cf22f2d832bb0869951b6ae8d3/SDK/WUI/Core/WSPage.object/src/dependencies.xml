@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\\WSPage"></use><use path="\WAPI\Platform\importer"></use><use path="\WAPI\Geoloc\locale"></use><use path="\WUI\Html\HTML"></use><use path="\\url"></use><use path="\\website"></use><use path="\WAPI\Environment\cookies"></use><use path="\Exception"></use><use path="\WUI\Prototype\HTMLPagePrototype"></use></dependencies>
